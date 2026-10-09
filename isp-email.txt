@@ -1,0 +1,16 @@
+=== LAGOS NOC EVIDENCE - Sep 27-28 2026 ===
+Target: 8.8.8.8
+
+14:26 Sep27 - 0% loss, 112ms avg [BASELINE GOOD]
+14:51 Sep27 - 60% loss, 340ms [CONGESTION START]
+20:22:44 Sep27 - 33% loss, 301.5ms avg [PEAK]
+20:27:49 Sep27 - 33% loss, 316.9ms avg [SUSTAINED]
+20:47:33 Sep27 - 33% loss, 316.7ms avg [SUSTAINED]
+06:14 Sep28 - 100% loss [BLACKOUT - Power Outage]
+09:32 Sep28 - 0% loss, 31-37ms [RECOVERY after NEPA]
+
+Diagnosis: Tower power-dependent + peak congestion
+Tue Sep 29 10:46:28 UTC 2026: MORNING TEST - 46ms avg vs 251ms evening - peak congestion proven
+
+To: ISP Support / NOC
+Request: Please check tower battery backup and peak capacity - 5x slower in evening proven.
