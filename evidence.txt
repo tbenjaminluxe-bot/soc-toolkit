@@ -1,1 +1,0 @@
-Sep 30 6:48am: Morning 46ms vs Evening 251ms to 8.8.8.8 - congestion proven
