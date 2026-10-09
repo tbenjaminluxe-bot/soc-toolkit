@@ -1,23 +1,22 @@
-# 🛡️ Roland SOC Toolkit - 13 Tools Built on iPhone
+# 🛡️ Roland SOC Toolkit - Built on iPhone
+**SOC Analyst Lab | Lagos, Nigeria | iPhone + LTE + iSH**
 
-> Built entirely on iPhone using iSH + LTE in Lagos. No laptop needed.
+I built 13 SOC tools without a laptop — using only iSH (Alpine Linux on iPhone).
 
-## 🔥 Tools
-1. **Port Scanner** - Found scanme.nmap.org:80 OPEN, 8.8.8.8:53 DNS + 443 HTTPS OPEN
-2. **IP Subnet Scanner** - Discovers alive hosts
-3. **Brute Force Detector** - Detected 2 attackers: 185.220.101.5 (7 fails) -> generates iptables block
-4. **File Hash Checker** - MD5/SHA256 for malware + VirusTotal check
-5. **IOC Extractor** - Pulls IPs/domains/hashes from threat reports
+### 🔥 Live Evidence
+- ✅ Port Scanner: `scanme.nmap.org:80 OPEN -> HTTP/1.1 200 OK`
+- ✅ Brute Force Detector: Blocked 2 attackers -> blocklist.txt
+- ✅ Subnet Scanner: Discovered alive hosts
+- ✅ All-in-one Menu: `toolkit.py`
 
-Evidence: blocklist.txt, hashes.txt, iocs.txt, alive_hosts.txt
+### 🧰 Tools
+- `toolkit.py` - Master menu (run this!)
+- `port_scanner.py` - TCP port scanner
+- `ip_subnet_scanner.py` - Subnet sweeper
+- `brute_force_detector.py` - SSH brute force detection
+- `hash_checker.py` - Hash validation
+- `ioc_extractor.py` - IOC extraction from logs
 
-## 💻 How Built
-- Device: iPhone + iSH app
-- Network: LTE
-- Battery: Tools 11-13 built on 9% -> 6%!
-
-## 🎯 SOC Skills
-Port scanning, Log analysis, Malware analysis, Threat Intel, Firewall
-
-Built by Roland - Aspiring SOC L1, Lagos.
-#SOC #CyberSecurity #Python
+### 🚀 How to Run
+```bash
+python3 toolkit.py
