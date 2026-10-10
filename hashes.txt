@@ -1,0 +1,4 @@
+File: brute_force_detector.py
+MD5: cd6edbcd0e5568196555efccec7998c0
+SHA1: 995506510dad46bc48af3426e50b9d9491ea7bed
+SHA256: cb37da214f2d973337c19b509a0f9054050fa81e5d49f2d516bad8e32c73c960

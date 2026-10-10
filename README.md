@@ -1,26 +1,27 @@
-# 🛰️ NOC Toolkit - ISP Monitoring
+# 🛡️ Roland SOC Toolkit - 13 Tools Built on iPhone
 
-![ISP](https://img.shields.io/badge/ISP-MTN_Nigeria-yellow?style=for-the-badge)
-![Latency](https://img.shields.io/badge/Latency-60ms-green?style=for-the-badge)
-![Location](https://img.shields.io/badge/Location-Lagos,_NG-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Monitoring_Active-success?style=for-the-badge)
+> Built entirely on iPhone using iSH + LTE in Lagos. No laptop needed.
 
-**Engineer:** Roland Benjamin | **Location:** Lagos, NG
-**Repo:** tbenjaminluxe-bot/Noc-toolkit
-**ISP:** MTN Nigeria
+## 🔥 Tools
+1. **Port Scanner** - Found scanme.nmap.org:80 OPEN, 8.8.8.8:53 DNS + 443 HTTPS OPEN
+2. **IP Subnet Scanner** - Discovers alive hosts
+3. **Brute Force Detector** - Detected 2 attackers: 185.220.101.5 (7 fails) -> generates iptables block
+4. **File Hash Checker** - MD5/SHA256 for malware + VirusTotal check
+5. **IOC Extractor** - Pulls IPs/domains/hashes from threat reports
 
-Live NOC monitoring toolkit built entirely on iPhone (iSH) - tracking ISP performance, latency, and uptime.
+Evidence: blocklist.txt, hashes.txt, iocs.txt, alive_hosts.txt
 
-## 📊 Current Status
-- **ISP:** MTN Nigeria
-- **Last Latency:** 60ms (Sep 30 Morning)
-- **Status:** ✅ Monitoring Active
-- **Platform:** iPhone + iSH + Git + GitHub
+## 💻 How Built
+- Device: iPhone + iSH app
+- Network: LTE
+- Battery: Tools 11-13 built on 9% -> 6%!
 
-## 📁 Files
-| File | Description |
-|------|-------------|
-| NOC-REPORT-Sep*.txt | Daily latency & uptime reports |
+## 🎯 SOC Skills
+Port scanning, Log analysis, Malware analysis, Threat Intel, Firewall
+
+Built by Roland - Aspiring SOC L1, Lagos.
+#SOC #CyberSecurity #Python
+RT-Sep*.txt | Daily latency & uptime reports |
 | FINAL-ISP-EMAIL.txt | ISP template |
 
 ---
