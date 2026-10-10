@@ -1,0 +1,21 @@
+--- MTN FEEDBACK Oct1 3:01PM ---
+PING 8.8.8.8 (8.8.8.8): 56 data bytes
+64 bytes from 8.8.8.8: seq=0 ttl=114 time=309.013 ms
+64 bytes from 8.8.8.8: seq=2 ttl=114 time=295.983 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 2 packets received, 33% packet loss
+round-trip min/avg/max = 295.983/302.498/309.013 ms
+--- FIXED 2026-10-08 03:14 AM ---
+nameserver 10.109.7.166
+nameserver 10.109.7.145
+PING 8.8.8.8 (8.8.8.8): 56 data bytes
+64 bytes from 8.8.8.8: seq=0 ttl=115 time=57.156 ms
+64 bytes from 8.8.8.8: seq=1 ttl=115 time=43.167 ms
+
+--- 8.8.8.8 ping statistics ---
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 43.167/50.161/57.156 ms
+--- PERMANENT FIX VERIFIED Oct 8 03:37 AM ---
+nameserver 8.8.8.8
+nameserver 1.1.1.1
