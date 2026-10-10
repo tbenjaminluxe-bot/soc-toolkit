@@ -1,0 +1,4 @@
+*.log
+*.txt
+mtn-latency.log
+overnight.log
