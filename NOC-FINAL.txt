@@ -1,8 +1,0 @@
---- MTN FEEDBACK Oct1 3:01PM ---
-PING 8.8.8.8 (8.8.8.8): 56 data bytes
-64 bytes from 8.8.8.8: seq=0 ttl=114 time=309.013 ms
-64 bytes from 8.8.8.8: seq=2 ttl=114 time=295.983 ms
-
---- 8.8.8.8 ping statistics ---
-3 packets transmitted, 2 packets received, 33% packet loss
-round-trip min/avg/max = 295.983/302.498/309.013 ms
