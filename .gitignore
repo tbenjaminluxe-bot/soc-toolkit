@@ -3,3 +3,6 @@
 *.log
 .ash_history
 .gitconfig
+soc.key
+*.enc
+*.dec
