@@ -13,7 +13,10 @@ When tools fail on iOS:
 - `sample.pcap 9.7K` - 50x GET example.com (clean)
 - `malware.pcap` - IOC: `evil-malware.com /gate.php` POST to `185.234.218.12`
 
+## Quick Start
+```bash
 git clone https://github.com/tbenjaminluxe-bot/soc-toolkit.git
 cd soc-toolkit
 chmod +x toolbox.sh
 ./toolbox.sh
+```
