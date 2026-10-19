@@ -12,7 +12,14 @@ When tools fail on iOS:
 **Results:**
 - `sample.pcap 9.7K` - 50x GET example.com (clean)
 - `malware.pcap` - IOC: `evil-malware.com /gate.php` POST to `185.234.218.12`
-
+### IOCs Extracted (Lab 01)
+- **Domain:** evil-malware.com
+- **URI:** /gate.php
+- **Method:** POST
+- **C2 IP:** 185.234.218.12
+- **File:** malware.pcap
+- **Detection:** 50x GET clean vs POST to C2 = malicious beacon
+  
 ## Quick Start
 ```bash
 git clone https://github.com/tbenjaminluxe-bot/soc-toolkit.git
