@@ -1,32 +1,35 @@
-# 🛡️ Roland SOC Toolkit - 13 Tools Built on iPhone
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Clones](https://img.shields.io/badge/Clones-313%2B-brightgreen)
+![iSH Ready](https://img.shields.io/badge/iSH-iPhone%20Compatible-black)
 
-> Built entirely on iPhone using iSH + LTE in Lagos. No laptop needed.
+## 🔥 Lab 02 LIVE - IOC Hunter
+# ROXY-02 SOC TOOLBOX 🧰
+Built entirely on iPhone - Lagos, NG
 
-## 🔥 Tools
-1. **Port Scanner** - Found scanme.nmap.org:80 OPEN, 8.8.8.8:53 DNS + 443 HTTPS OPEN
-2. **IP Subnet Scanner** - Discovers alive hosts
-3. **Brute Force Detector** - Detected 2 attackers: 185.220.101.5 (7 fails) -> generates iptables block
-4. **File Hash Checker** - MD5/SHA256 for malware + VirusTotal check
-5. **IOC Extractor** - Pulls IPs/domains/hashes from threat reports
+One toolbox to monitor, investigate, and respond.
 
-Evidence: blocklist.txt, hashes.txt, iocs.txt, alive_hosts.txt
+## Lab 01: PCAP Forensics (iSH Fix)
+When tools fail on iOS:
+- Download -> `ASCII text, 14 bytes` HTML block
+- Scapy -> `OSError: [Errno 22] Invalid argument`
+- Fix: Pure Python writer with `struct` + `inet_aton`
 
-## 💻 How Built
-- Device: iPhone + iSH app
-- Network: LTE
-- Battery: Tools 11-13 built on 9% -> 6%!
+**Results:**
+- `sample.pcap 9.7K` - 50x GET example.com (clean)
+- `malware.pcap` - IOC: `evil-malware.com /gate.php` POST to `185.234.218.12`
+### IOCs Extracted (Lab 01)
+- **Domain:** evil-malware.com
+- **URI:** /gate.php
+- **Method:** POST
+- **C2 IP:** 185.234.218.12
+- **File:** malware.pcap
+- **Detection:** 50x GET clean vs POST to C2 = malicious beacon
+  
+## Quick Start
+```bash
+git clone https://github.com/tbenjaminluxe-bot/soc-toolkit.git
+cd soc-toolkit
+chmod +x toolbox.sh
+./toolbox.sh
+```
 
-## 🎯 SOC Skills
-Port scanning, Log analysis, Malware analysis, Threat Intel, Firewall
-
-Built by Roland - Aspiring SOC L1, Lagos.
-#SOC #CyberSecurity #Python
-RT-Sep*.txt | Daily latency & uptime reports |
-| FINAL-ISP-EMAIL.txt | ISP template |
-
----
-*Built on iPhone - No laptop needed*
-
----
-**Engineered by:** Roland Benjamin | NOC Engineer | Lagos, NG
-**Platform:** iPhone + iSH + Git + GitHub - No laptop needed 🇳🇬

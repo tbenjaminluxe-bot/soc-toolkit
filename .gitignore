@@ -1,8 +1,4 @@
-.ssh/
-.git/
 *.log
-.ash_history
-.gitconfig
-soc.key
-*.enc
-*.dec
+*.txt
+mtn-latency.log
+overnight.log

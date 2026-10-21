@@ -1,25 +1,50 @@
-#!/usr/bin/env python3
-print("""
-╔══════════════════════════════════╗
-║ ROLAND SOC TOOLKIT - 13 TOOLS ║
-║ Built on iPhone + LTE - Lagos ║
-╚══════════════════════════════════╝
-""")
-tools={
- "1": ("Port Scanner", "port_scanner.py"),
- "2": ("IP Subnet Scanner", "ip_subnet_scanner.py"),
- "3": ("Brute Force Detector", "brute_force_detector.py"),
- "4": ("Hash Checker", "hash_checker.py"),
- "5": ("IOC Extractor", "ioc_extractor.py"),
-}
-for k,v in tools.items():
- print(f"[{k}] {v[0]}")
-print("[0] List all files")
-choice=input("\nChoose: ").strip()
-if choice=="0":
- import os
- print("\n".join(os.listdir(".")))
-elif choice in tools:
- print(f"\nRunning {tools[choice][1]}...\n")
- import subprocess,sys
- subprocess.run([sys.executable, tools[choice][1]])
+import os, time
+
+def run(cmd):
+    os.system(cmd)
+    input("\nPress Enter to continue...")
+
+while True:
+    os.system("clear")
+    print("========================================================")
+    print(" ROLAND SOC TOOLBOX - 16 TOOLS ACTIVE SHIELD 🛡️")
+    print(" Built on iPhone - LTE Gang 🇳🇬 - Roxy Shield v7.3")
+    print("========================================================")
+    print("[1] ip_checker.sh")
+    print("[2] ipv6-check.sh")
+    print("[3] latency-logger.sh")
+    print("[4] noc-check.sh")
+    print("[5] noc-watch.sh")
+    print("[6] noc-overnight.sh")
+    print("[7] brute_force_detector.py")
+    print("[8] ioc_extractor.py")
+    print("[9] port_scanner.py")
+    print("[10] Hash Checker")
+    print("[11] Roxy SOC Dashboard v7.3 SHIELD")
+    print("[12] alerts.log - View Alerts")
+    print("[13] blocked_ips.txt - Blocked IPs")
+    print("[14] List all files")
+    print("[15] cia_detector.py - CIA Detector 🚨")
+    print("[16] roxy_auto_block.py - ACTIVE AUTO-BLOCK 🛡️ NEW!")
+    print("[0] List all files")
+    print("[99] Exit")
+    print("--------------------------------------------------------")
+    choice = input("Select tool: ").strip()
+
+    if choice == "1": run("sh ip_checker.sh")
+    elif choice == "2": run("sh ipv6-check.sh")
+    elif choice == "3": run("sh latency-logger.sh")
+    elif choice == "4": run("sh noc-check.sh")
+    elif choice == "5": run("sh noc-watch.sh")
+    elif choice == "6": run("sh noc-overnight.sh")
+    elif choice == "7": run("python3 brute_force_detector.py")
+    elif choice == "8": run("python3 ioc_extractor.py")
+    elif choice == "9": run("python3 port_scanner.py")
+    elif choice == "10": run("python3 hash_checker.py")
+    elif choice == "11": run("python3 roxy_dashboard.py")
+    elif choice == "12": run("cat alerts.log")
+    elif choice == "13": run("cat blocked_ips.txt")
+    elif choice == "14" or choice == "0": run("ls -lh")
+    elif choice == "15" or choice == "16": run("python3 cia_detector.py")
+    elif choice == "99": break
+    else: print("Invalid choice"); time.sleep(1)
