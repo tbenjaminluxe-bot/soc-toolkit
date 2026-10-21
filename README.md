@@ -38,3 +38,5 @@ chmod +x toolbox.sh
 ## Lab 03 LIVE - CherryBlossom Defense 🌸
 - Router implant detector + firmware persistence hunter
 - File: lab03_cherryblossom_defense.py
+## Lab 04 LIVE - Grasshopper Hunter 🦗
+- Barracuda ESG backdoor CVE-2023-2868
