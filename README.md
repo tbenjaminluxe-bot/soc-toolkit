@@ -40,3 +40,5 @@ chmod +x toolbox.sh
 - File: lab03_cherryblossom_defense.py
 ## Lab 04 LIVE - Grasshopper Hunter 🦗
 - Barracuda ESG backdoor CVE-2023-2868
+## Lab 05 LIVE - Salt Typhoon Hunter 🌊
+- Telecom APT backdoor + Cisco IOS XE implant detector
