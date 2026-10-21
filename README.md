@@ -34,3 +34,7 @@ chmod +x toolbox.sh
 ./toolbox.sh
 ```
 
+
+## Lab 03 LIVE - CherryBlossom Defense 🌸
+- Router implant detector + firmware persistence hunter
+- File: lab03_cherryblossom_defense.py
