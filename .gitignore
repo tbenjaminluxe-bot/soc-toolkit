@@ -2,3 +2,16 @@
 *.txt
 mtn-latency.log
 overnight.log
+.venv/
+__pycache__/
+.cache/
+.ash_history
+Lab/
+Lab03
+*.enc
+*.dec
+*.pcap
+*.key
+roxy.html
+roxy.py
+
