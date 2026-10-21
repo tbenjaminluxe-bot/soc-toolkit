@@ -1,7 +1,8 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Clones](https://img.shields.io/badge/Clones-313%2B-brightgreen)
 ![iSH Ready](https://img.shields.io/badge/iSH-iPhone%20Compatible-black)
-
+## Lab 03 LIVE - CherryBlossom Hunter 🌸
+Defensive detector for router implant + firmware persistence
 ## 🔥 Lab 02 LIVE - IOC Hunter
 # ROXY-02 SOC TOOLBOX 🧰
 Built entirely on iPhone - Lagos, NG
