@@ -65,3 +65,7 @@ chmod +x toolbox.sh
 - Barracuda ESG backdoor CVE-2023-2868
 ## Lab 05 LIVE - Salt Typhoon Hunter 🌊
 - Telecom APT backdoor + Cisco IOS XE implant detector
+## 🔥 Proof Live
+- **Latest: Commit 31e3add - Lab 06 CLEAN (main branch)**
+- **Archive: Commit 13723d8 - Lab 04/05 CLEAN (branch: archive/proof-13723d8)**
+- **LinkedIn:** https://www.linkedin.com/posts/roland-benjamin-6324ab440_github-tbenjaminluxe-botsoc-toolkit-activity-7519069859742285824-qUz8
