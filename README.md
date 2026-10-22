@@ -28,14 +28,15 @@ When tools fail on iOS:
   
 ## Quick Start
 ```bash
-git clone https://github.com/tbenjaminluxe-bot/soc-toolkit.git
+git clone https## Proof Live
+- Latest: Commit 31e3add - Lab 06 CLEAN (Oct 22, 5:48 AM)
+- Previous: Commit 13723d8 - Lab 04/05 CLEAN (Oct 22, 5:25 AM)
+- LinkedIn Verification: [link]://github.com/tbenjaminluxe-bot/soc-toolkit.git
 cd soc-toolkit
 chmod +x toolbox.sh
 ./toolbox.sh
 ```
-## Proof Live
-LinkedIn Verification: https://www.linkedin.com/posts/roland-benjamin-6324ab440_full-diff-of-commit-13723d8-13-lines-added-activity-7518961401189543936-_PxB
-Commit: 13723d8 - Lab 04/05 CLEAN
+
 
 ![Commit](https://img.shields.io/badge/Commit-13723d8-brightgreen?style=for-the-badge)
 ![Lab](https://img.shields.io/badge/Lab_04%2F05-CLEAN-success?style=for-the-badge)
