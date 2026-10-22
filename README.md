@@ -26,7 +26,7 @@ When tools fail on iOS:
 - **File:** malware.pcap
 - **Detection:** 50x GET clean vs POST to C2 = malicious beacon
   
-## Quick Start
+## Quick Start  
 ```bash
 git clone https## Proof Live
 - Latest: Commit 31e3add - Lab 06 CLEAN (Oct 22, 5:48 AM)
@@ -49,8 +49,8 @@ chmod +x toolbox.sh
 ## 🔥 Proof Live
 - **Latest: Commit 31e3add - Lab 06 CLEAN (Oct 22, 5:48 AM)**
 - **Previous: Commit 13723d8 - Lab 04/05 CLEAN (Oct 22, 5:25 AM)**
-- **LinkedIn Verification:** [https://www.linkedin.com/posts/roland-benjamin-6324ab440_github-tbenjaminluxe-botsoc-toolkit-activity-7519069859742285824-qUz8]
-
+- **LinkedIn Verification:** 
+- **LinkedIn Verification:** [View Post](https://www.linkedin.com/posts/roland-benjamin-6324ab440_github-tbenjaminluxe-botsoc-toolkit-activity-7519069859742285824-qUz8)
 ## ⚡ Quick Start
 ```bash
 git clone https://github.com/tbenjaminluxe-bot/soc-toolkit.git
