@@ -37,6 +37,11 @@ chmod +x toolbox.sh
 LinkedIn Verification: https://www.linkedin.com/posts/roland-benjamin-6324ab440_full-diff-of-commit-13723d8-13-lines-added-activity-7518961401189543936-_PxB
 Commit: 13723d8 - Lab 04/05 CLEAN
 
+![Verified SOC Proof - Commit 13723d8](badge.png)
+
+[![Commit](https://img.shields.io/badge/Commit-13723d8-brightgreen)](https://github.com/tbenjaminluxe-bot/soc-toolkit/commit/13723d8)
+[![Status](https://img.shields.io/badge/Lab_04%2F05-CLEAN-success)]()
+[![Built](https://img.shields.io/badge/Built_on-iPhone_Lagos-blue)]()
 ## Lab 03 LIVE - CherryBlossom Defense 🌸
 - Router implant detector + firmware persistence hunter
 - File: lab03_cherryblossom_defense.py
