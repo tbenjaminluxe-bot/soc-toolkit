@@ -1,0 +1,13 @@
+[*] Lab 04 Grasshopper Hunter - LIVE
+[+] Scan complete - No Grasshopper persistence found = CLEAN
+[+] Built on iPhone - Lagos, NG - ROXY-02
+[*] Lab 05 Salt Typhoon Hunter 🌊 - LIVE
+[+] CLEAN - No Salt Typhoon persistence found
+[+] Built on iPhone - Lagos, NG - ROXY-02
+ROXY-02 Lab03 - CherryBlossom Defense
+[CRIT] L0: Router hijack - 192.168.1.1 -> 8.8.8.8 size=342 time=00:00:01 DNS evil.onion
+[CRIT] L1: Router hijack - 192.168.1.1 -> 8.8.8.8 size=342 time=00:01:01 DNS evil.onion
+[CRIT] L2: Router hijack - 192.168.1.1 -> 8.8.8.8 size=342 time=00:02:01 DNS evil.onion
+[HIGH] Beacon x3: router phoning home
+[MED] L3: FW upload - 192.168.1.5 -> 192.168.1.1 firmware POST size=4567
+Scan done - Defensive only
