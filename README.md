@@ -40,10 +40,24 @@ chmod +x toolbox.sh
 - Latest: Commit 31e3add - Lab 06 CLEAN (Oct 22, 5:48 AM)
 - Previous: Commit 13723d8 - Lab 04/05 CLEAN (Oct 22, 5:25 AM)
 - LinkedIn Verification: [link]
+# soc-toolkit - LIVE SOC Lab
 
-![Commit](https://img.shields.io/badge/Commit-13723d8-brightgreen?style=for-the-badge)
-![Lab](https://img.shields.io/badge/Lab_04%2F05-CLEAN-success?style=for-the-badge)
-![Built](https://img.shields.io/badge/Built_on-iPhone_Lagos-blue?style=for-the-badge&logo=github)
+[![Commit](https://img.shields.io/badge/COMMIT-31E3ADD-brightgreen?style=for-the-badge)](https://github.com/tbenjaminluxe-bot/soc-toolkit/commit/31e3addf412f2a1bf5da660bf1a4f45864d2ad56)
+[![Lab](https://img.shields.io/badge/LAB_06-CLEAN-success?style=for-the-badge)](https://github.com/tbenjaminluxe-bot/soc-toolkit/blob/main/lab06_volt_typhoon_hunter.py)
+[![Built On](https://img.shields.io/badge/BUILT_ON-IPHONE_LAGOS-blue?style=for-the-badge&logo=github)](https://github.com/tbenjaminluxe-bot/soc-toolkit)
+
+## 🔥 Proof Live
+- **Latest: Commit 31e3add - Lab 06 CLEAN (Oct 22, 5:48 AM)**
+- **Previous: Commit 13723d8 - Lab 04/05 CLEAN (Oct 22, 5:25 AM)**
+- **LinkedIn Verification:** [Add your LinkedIn post link here]
+
+## ⚡ Quick Start
+```bash
+git clone https://github.com/tbenjaminluxe-bot/soc-toolkit.git
+cd soc-toolkit
+chmod +x toolbox.sh
+./toolbox.sh
+
 ## Lab 03 LIVE - CherryBlossom Defense 🌸
 - Router implant detector + firmware persistence hunter
 - File: lab03_cherryblossom_defense.py
