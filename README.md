@@ -33,7 +33,9 @@ cd soc-toolkit
 chmod +x toolbox.sh
 ./toolbox.sh
 ```
-
+## Proof Live
+LinkedIn Verification: https://www.linkedin.com/posts/roland-benjamin-6324ab440_full-diff-of-commit-13723d8-13-lines-added-activity-7518961401189543936-_PxB
+Commit: 13723d8 - Lab 04/05 CLEAN
 
 ## Lab 03 LIVE - CherryBlossom Defense 🌸
 - Router implant detector + firmware persistence hunter
