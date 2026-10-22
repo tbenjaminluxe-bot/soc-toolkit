@@ -36,7 +36,10 @@ cd soc-toolkit
 chmod +x toolbox.sh
 ./toolbox.sh
 ```
-
+## Proof Live
+- Latest: Commit 31e3add - Lab 06 CLEAN (Oct 22, 5:48 AM)
+- Previous: Commit 13723d8 - Lab 04/05 CLEAN (Oct 22, 5:25 AM)
+- LinkedIn Verification: [link]
 
 ![Commit](https://img.shields.io/badge/Commit-13723d8-brightgreen?style=for-the-badge)
 ![Lab](https://img.shields.io/badge/Lab_04%2F05-CLEAN-success?style=for-the-badge)
